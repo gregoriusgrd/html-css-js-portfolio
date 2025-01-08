@@ -1,0 +1,12 @@
+/* 
+ if the screen lower than 1200px nav disappear (mobile) 
+*/
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
