@@ -26,7 +26,7 @@ a,
   transition: all 300ms ease;
 }
 
-/* DESKTOP NAV */
+/* 🚀 START DESKTOP NAV 🚀 */
 
 nav,
 .nav-links {
@@ -66,7 +66,9 @@ a:hover {
   cursor: default;
 }
 
-/* HAMBURGER MENU */
+/* 🏁 END DESKTOP NAV 🏁 */
+
+/* 🚀 START HAMBURGER MENU 🚀 */
 
 #hamburger-nav {
   display: none;
@@ -146,7 +148,9 @@ a:hover {
   transform: none;
 }
 
-/* SECTIONS */
+/* 🏁 END HAMBURGER MENU 🏁 */
+
+/* 🚀 START SECTIONS 🚀 */
 
 section {
   padding-top: 4vh;
@@ -160,7 +164,9 @@ section {
   display: flex;
 }
 
-/* PROFILE SECTION */
+/* 🏁 END SECTIONS 🏁 */
+
+/* 🚀 START PROFILE SECTION 🚀 */
 
 #profile {
   display: flex;
@@ -206,14 +212,18 @@ section {
   gap: 1rem;
 }
 
-/* ICONS */
+/* 🏁 END PROFILE SECTION 🏁 */
+
+/* 🚀 START ICONS 🚀 */
 
 .icon {
   cursor: pointer;
   height: 2rem;
 }
 
-/* BUTTONS */
+/* 🏁 END ICONS 🏁 */
+
+/* 🚀 START BUTTONS 🚀 */
 
 .btn-container {
   display: flex;
@@ -261,7 +271,9 @@ section {
   gap: 1rem;
 }
 
-/* ABOUT SECTION */
+/* 🏁 END BUTTONS 🏁 */
+
+/* 🚀 START ABOUT SECTION 🚀 */
 
 #about {
   position: relative;
@@ -314,7 +326,9 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* 🏁 END ABOUT SECTION 🏁 */
+
+/* 🚀 START EXPERIENCE SECTION 🚀 */
 
 #experience {
   position: relative;
@@ -353,7 +367,9 @@ article .icon {
   cursor: default;
 }
 
-/* PROJECTS SECTION */
+/* 🏁 END EXPERIENCE SECTION 🏁 */
+
+/* 🚀 START PROJECTS SECTION 🚀 */
 
 #projects {
     position: relative;
@@ -380,7 +396,9 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
-/* CONTACT */
+/* 🏁 END PROJECTS SECTION 🏁 */
+
+/* 🚀 START CONTACT 🚀 */
 
 #contact {
     /* position: relative; */
@@ -422,7 +440,9 @@ article .icon {
     height: 2.5rem;
 }
 
-/* FOOTER SECTION */
+/* 🏁 END CONTACT SECTION 🏁 */
+
+/* 🚀 START FOOTER SECTION 🚀 */
 
 footer {
     height: 26vh;
@@ -432,3 +452,5 @@ footer {
 footer p{
     text-align: center;
 }
+
+/* 🏁 END FOOTER SECTION 🏁 */
