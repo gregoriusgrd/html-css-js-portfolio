@@ -206,7 +206,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
-  border: solid;
+  /* border: solid; */
 }
 
 #profile #hello-text {
@@ -249,6 +249,11 @@ section {
 }
 
 .title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#name-text {
   font-size: 2rem;
   text-align: center;
 }
@@ -383,12 +388,28 @@ section {
 
 #about {
   position: relative;
+  /* height: 100vh; */
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid;
+  height: 15vh;
+}
+
+.section-container {
+  gap: 4rem;
+  /* height: 60vh; */
+  border: solid;
 }
 
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+
 }
 
 .about-details-container {
@@ -403,6 +424,11 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+}
+
+#about-pic-container {
+  /* border: solid; */
+  padding-top: 80px;
 }
 
 .arrow {
@@ -421,11 +447,6 @@ section {
   text-align: center;
 }
 
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
-
 .section__pic-container {
   height: 400px;
   width: 400px;
@@ -438,6 +459,7 @@ section {
 
 #experience {
   position: relative;
+  /* height: 100vh; */
 }
 
 .experience-sub-title {
@@ -448,9 +470,11 @@ section {
 }
 
 .experience-details-container {
+  /* height: 60vh; */
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border: solid;
 }
 
 .article-container {
@@ -480,6 +504,10 @@ article .icon {
 #projects {
     position: relative;
 }
+/* 
+.experience-details-container {
+  
+} */
 
 .color-container {
     border-color: rgb(163, 163, 163);
