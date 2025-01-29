@@ -21,7 +21,7 @@
     </nav>
 
     <nav id="hamburger-nav">
-        <div class="logo">John Doe</div>
+        <div class="logo">Gregorius Geraldin</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -39,23 +39,29 @@
 
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="John Doe Profile Picture">
+            <img src="./assets/profile-pic.png" alt="Profile Picture">
         </div>
         <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Gregorius Geraldin</h1>
-            <p class="section__text__p2">Frontend Developer</p>
+            <p id="hello-text" class="section__text__p1">Hello, I'm</p>
+            <h1 id="name-text" class="title">Gregorius Geraldin</h1>
+            <h2 class="role-text">                
+                <span>Web Developer</span>
+                <span>App Developer</span>
+                <span>UI Designer</span>
+            </h2>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                <button id="download-cv" class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button id="contact-info" class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
             </div>
             <div id="socials-container">
                 <img src="./assets/linkedin.png" 
+                id="profile-linkedin"
                 alt="My LinkedIn profile" 
                 class="icon" 
                 onclick="location.href='http://linkedin.com/'"
                 />
                 <img src="./assets/github.png" 
+                id="profile-github"
                 alt="My Github profile" 
                 class="icon" 
                 onclick="location.href='http://github.com/'"

@@ -51,7 +51,16 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+    
+    .blob-img {
+        width: 280px;
+    }
+
+    .rocket-img {
+        width: 200px;
+    }
+
     #contact, footer {
         height: 40vh;
     }    

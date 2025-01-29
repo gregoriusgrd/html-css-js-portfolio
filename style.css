@@ -2,9 +2,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+:root {
+  --main-gray: rgb(85, 85, 85);
+}
+
 * {
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
 }
 
 body {
@@ -201,6 +206,21 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  border: solid;
+}
+
+#profile #hello-text {
+  animation: showUp 0.7s forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+#profile #name-text {
+  animation: showUp 0.7s forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 .section__pic-container {
@@ -229,8 +249,44 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
+}
+
+.role-text {
+  color: var(--main-gray);
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  margin-top: 4px;
+  animation: showUp 0.7s forwards;
+  animation-delay: 1.4s;
+  opacity: 0;
+  transform: translateY(20px);
+  overflow: hidden;
+  /* border: solid; */
+}
+
+.role-text span {
+  animation: switchRole 3s ease-in-out alternate infinite;
+}
+
+.btn-container {
+  margin-top: 12px;
+}
+
+#profile #download-cv {
+  animation: showUp 0.7s forwards;
+  animation-delay: 1.6s;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+#profile #contact-info {
+  animation: showUp 0.7s forwards;
+  animation-delay: 1.8s;
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 #socials-container {
@@ -238,6 +294,28 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+#profile-linkedin {
+  animation: showUp 0.7s forwards;
+  animation-delay: 2.0s;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.3s ease-in-out;
+}
+
+#profile-github {
+  animation: showUp 0.7s forwards;
+  animation-delay: 2.2s;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.3s ease-in-out;
+}
+
+#profile-linkedin:hover,
+#profile-github:hover {
+  margin-top: -6px;
 }
 
 /* 🏁 END PROFILE SECTION 🏁 */
