@@ -395,14 +395,14 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: solid;
+  /* border: solid; */
   height: 15vh;
 }
 
 .section-container {
   gap: 4rem;
   /* height: 60vh; */
-  border: solid;
+  /* border: solid; */
 }
 
 .about-containers {
@@ -455,26 +455,26 @@ section {
 
 /* 🏁 END ABOUT SECTION 🏁 */
 
-/* 🚀 START EXPERIENCE SECTION 🚀 */
+/* 🚀 START skill SECTION 🚀 */
 
-#experience {
+#skill {
   position: relative;
   /* height: 100vh; */
 }
 
-.experience-sub-title {
+.skill-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.skill-details-container {
   /* height: 60vh; */
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: solid;
+  /* border: solid; */
 }
 
 .article-container {
@@ -497,7 +497,7 @@ article .icon {
   cursor: default;
 }
 
-/* 🏁 END EXPERIENCE SECTION 🏁 */
+/* 🏁 END skill SECTION 🏁 */
 
 /* 🚀 START PROJECTS SECTION 🚀 */
 
@@ -505,7 +505,7 @@ article .icon {
     position: relative;
 }
 /* 
-.experience-details-container {
+.skill-details-container {
   
 } */
 
