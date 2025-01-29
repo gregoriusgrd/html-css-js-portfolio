@@ -10,6 +10,7 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
@@ -48,8 +49,8 @@
             <img src="./assets/profile-pic.png" alt="Profile Picture">
         </div>
         <div class="section__text">
-            <p id="hello-text" class="section__text__p1">Hello, I'm</p>
-            <h1 id="name-text" >Gregorius Geraldin</h1>
+            <p id="profile-hello-text" class="section__text__p1">Hello, I'm</p>
+            <h1 id="profile-name-text" >Gregorius Geraldin</h1>
             <h2 class="role-text">                
                 <span>Web Developer</span>
                 <span>App Developer</span>
@@ -64,22 +65,25 @@
                 id="profile-linkedin"
                 alt="My LinkedIn profile" 
                 class="icon" 
-                onclick="location.href='http://linkedin.com/'"
+                onclick="location.href='https://www.linkedin.com/in/gregorius-geraldin/'"
                 />
                 <img src="./assets/github.png" 
                 id="profile-github"
                 alt="My Github profile" 
                 class="icon" 
-                onclick="location.href='http://github.com/'"
+                onclick="location.href='https://github.com/gregoriusgrd'"
                 />
             </div>
         </div>
+
+        <img id="profile-arrow" src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
+        onclick="location.href='./#about'"/>
     </section>
 
     <section id="about">
         <div class="title-container">
-            <p class="section__text__p1">Get To Know More</p>
-            <h1 class="title">About Me</h1>
+            <p id="about-sub-title" class="section__text__p1">Get To Know More</p>
+            <h1 id="about-title" class="title">About Me</h1>
         </div>
         <div class="section-container">
             <div id="about-pic-container" class="section__pic-container">
@@ -87,30 +91,30 @@
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
-                    <div class="details-container">
+                    <div id="about-experience" class="details-container">
                         <img src="./assets/experience.png" alt="skill icon" class="icon">
                         <h3>Experience</h3>
                         <p>1 years <br>Mobile Apps Developer</p>
                     </div>
-                    <div class="details-container">
+                    <div id="about-education" class="details-container">
                         <img src="./assets/education.png" alt="Education icon" class="icon">
                         <h3>Education</h3>
                         <p>B.Sc. Bachelors Degree <br>Binus Univertsity</p>
                     </div>
                 </div>
-                <div class="text-container">
+                <div id="about-desc" class="text-container">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Praesentium iure odio, enim ex perspiciatis, nobis tenetur esse non 
-                        voluptate reprehenderit veniam inventore quos. Nulla odit est, a quia 
-                        quas aspernatur, eligendi odio provident aliquam cum aliquid maiores 
-                        iste veniam iure delectus ratione quae animi adipisci consequatur 
-                        perferendis, doloribus eos reprehenderit!
+                        I recently graduated with a Bachelor's in Computer Science, where I gained solid 
+                        foundation in programming, software development, and problem-solving. Over the 
+                        past year, I worked as a Mobile Apps Developer, contributing to two apps by writing 
+                        clean code, maintaining them, and fixing bugs. Currently, I’m focused on improving 
+                        my frontend development skills, learning HTML, CSS, JavaScript, and modern frameworks.
+                         My goal is to become a better developer by learning and practicing more every day.
                     </p>
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
+        <img id="about-arrow" src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
         onclick="location.href='./#skill'"/>
     </section>
 
@@ -127,42 +131,48 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="skill icon" class="icon">
                             <div>
+                                <img class="skill-icon" src="assets/html.png" alt="">
                                 <h3>HTML</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <h3>SASS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="skill icon" class="icon">
                             <div>
+                                <img class="skill-icon" src="assets/css.png" alt="">
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
+                            <div>
+                                <img class="skill-icon" src="assets/javascript.png" alt="">
                                 <h3>JavaScript</h3>
-                                <p>Basic</p>
+                                <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="skill icon" class="icon">
                             <div>
-                                <h3>TypeScript</h3>
-                                <p>Basic</p>
+                                <img class="skill-icon" src="assets/figma.png" alt="">
+                                <h3>Figma</h3>
+                                <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="skill icon" class="icon">
                             <div>
-                                <h3>Material UI</h3>
+                                <img class="skill-icon" src="assets/android studio.png" alt="">
+                                <h3>Android Studio</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
+                            <div>
+                                <img class="skill-icon" src="assets/github.png" alt="">
+                                <h3>Github</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
@@ -174,29 +184,17 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="skill icon" class="icon">
                             <div>
-                                <h3>PostgreSQL</h3>
+                                <img class="skill-icon" src="assets/mysql.png" alt="">
+                                <h3>SQL</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="skill icon" class="icon">
                             <div>
-                                <h3>Node JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <h3>Express JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="skill icon" class="icon">
-                            <div>
-                                <h3>Git</h3>
-                                <p>Intermediate</p>
+                                <img class="skill-icon" src="assets/python.png" alt="">
+                                <h3>Python</h3>
+                                <p>Basic</p>
                             </div>
                         </article>
                     </div>
@@ -361,16 +359,16 @@
     </div><!-- Slider main container -->
 
     <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
+        <p id="contact-sub-title" class="section__text__p1">Get in Touch</p>
+        <h1 id="contact-title" class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
-                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p> <!-- email here -->
+                <p><a href="mailto:gregorius.gerald21@gmail.com">gregorius.gerald21@gmail.com</a></p> <!-- email here -->
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
-                <p><a href="https://www.linkedin.com">LinkedIn</a></p> <!-- linkedin profile here -->
+                <p><a href="https://www.linkedin.com/in/gregorius-geraldin/">LinkedIn</a></p> <!-- linkedin profile here -->
             </div>
         </div>
     </section>
@@ -380,7 +378,7 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#skill">Skill</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
