@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+
+    <!-- Import Swiper JS -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
@@ -14,7 +20,7 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skill">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#project">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -198,10 +204,10 @@
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
-        onclick="location.href='./#projects'"/>
+        onclick="location.href='./#project'"/>
     </section>
 
-    <section id="projects">
+    <!-- <section id="projects">
         <div class="title-container">
             <p class="section__text__p1">Browse My Recent</p>
             <h1 class="title">Projects</h1>
@@ -253,9 +259,106 @@
                 </div>
             </div>
         </div>
+
+    </section> -->
+
+    <div id="project">
+        <div class="title-container">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+        </div>
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="card-avatar-img">
+                    </div>
+                    <h2 class="card-name-txt">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 2" class="card-avatar-img">
+                    </div>
+                    <h2 class="card-name-txt">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="card-avatar-img">
+                    </div>
+                    <h2 class="card-name-txt">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 3" class="card-avatar-img">
+                    </div>
+                    <h2 class="card-name-txt">Project Four</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="card-avatar-img">
+                    </div>
+                    <h2 class="card-name-txt">Project Five</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+    
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+        </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
         onclick="location.href='./#contact'"/>
-    </section>
+    </div><!-- Slider main container -->
 
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
@@ -283,9 +386,14 @@
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2024 John Doe. All Rights Reserved</p>
+        <p>Copyright &#169; 2025 Gregorius Geraldin. All Rights Reserved</p>
     </footer>
+    
+    <!-- Import Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <!-- Script JS -->
     <script src="script.js"></script>
+
 </body>
 </html>
