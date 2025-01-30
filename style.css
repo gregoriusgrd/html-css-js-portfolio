@@ -209,6 +209,13 @@ section {
   /* border: solid; */
 }
 
+#profile-gif {
+  animation: showUp 0.7s forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
 #profile-hello-text {
   animation: showUp 0.7s forwards;
   animation-delay: 1s;
@@ -285,6 +292,7 @@ section {
   animation-delay: 1.6s;
   opacity: 0;
   transform: translateY(20px);
+  cursor: pointer;
 }
 
 #profile #contact-info {
@@ -292,6 +300,7 @@ section {
   animation-delay: 1.8s;
   opacity: 0;
   transform: translateY(20px);
+  cursor: pointer;
 }
 
 #socials-container {
