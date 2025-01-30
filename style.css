@@ -29,6 +29,7 @@ p {
 a,
 .btn {
   transition: all 300ms ease;
+  cursor: pointer;
 }
 
 /* 🚀 START DESKTOP NAV 🚀 */
@@ -453,10 +454,10 @@ section {
   border-radius: 2rem;
 }
 
-#about-pic-container {
-  /* border: solid; */
-  padding-top: 40px;
-}
+/* #about-pic-container {
+  border: solid;
+  padding-top: 5px;
+} */
 
 .arrow {
   width: 50px; /* Adjust size */
